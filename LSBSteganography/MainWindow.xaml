@@ -1,0 +1,29 @@
+﻿<Window x:Class="LSBSteganography.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LSBSteganography"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        WindowState="Maximized"
+        xmlns:ctrls="clr-namespace:LSBSteganography.View">
+    <Grid>
+        <TabControl Margin="5" Background="White">
+            
+            <TabItem Header="Hide bitmap" Width="200">
+                <ctrls:HideBitmap></ctrls:HideBitmap>
+            </TabItem>
+
+            <TabItem Header="Recover bitmap" Width="200">
+                <ctrls:RecoverBitmap></ctrls:RecoverBitmap>
+            </TabItem>
+
+            <TabItem Header="Hide/recover mesage" Width="200">
+                <ctrls:HideAndRecoverMessage></ctrls:HideAndRecoverMessage>
+            </TabItem>
+
+
+        </TabControl>
+    </Grid>
+</Window>
