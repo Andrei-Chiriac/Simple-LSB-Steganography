@@ -59,7 +59,7 @@
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\Result.cs" />
     <Compile Include="Common\Utils.cs" />
-    <Compile Include="SteganographyHelper.cs" />
+    <Compile Include="Steg\SteganographyHelper.cs" />
     <Compile Include="ViewModel\HideAndRecoverMessageViewModel.cs" />
     <Compile Include="ViewModel\HideBitmapViewModel.cs" />
     <Compile Include="ViewModel\RecoverBitmapViewModel.cs" />
