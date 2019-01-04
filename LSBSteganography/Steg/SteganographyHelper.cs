@@ -27,8 +27,6 @@ namespace LSBSteganography
             int mask = (int)(256 - Math.Pow(2, numberOfBits));
             byte[] resultBytes = new byte[carrierNumberOfBytes];
 
-            resultBytes = new byte[secretNumberOfBytes];
-
             for (int i = 0; i < secretNumberOfBytes; i++)
             {
                 if (i < Utils.BitmapHeaderLength) resultBytes[i] = carrierBytes[i];
